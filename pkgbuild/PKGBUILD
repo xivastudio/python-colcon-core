@@ -11,7 +11,7 @@ url="https://colcon.readthedocs.io/en/released/"
 license=('Apache')
 depends=('python-pytest' 'python-pytest-runner' 'python-pytest-rerunfailures'
          'python-pytest-repeat' 'python-coverage' 'python-pytest-cov'
-         'python-distlib' 'python-notify2' 'python-empy')
+         'python-distlib' 'python-notify2' 'python-empy' 'python-wheel')
 makedepends=('python-setuptools' 'python-build' 'python-installer')
 source=("$pkgname-$pkgver.tar.gz"::"https://github.com/colcon/colcon-core/archive/$pkgver.tar.gz")
 sha256sums=('b8b019e9dfe871e9a12e029bb37b31ecc9fb7b869b51c9abdcc9a7da8ec25809')
